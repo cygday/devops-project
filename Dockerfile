@@ -1,8 +1,8 @@
 
-FROM node
+FROM nginx:alpine
 WORKDIR ./devops-project
-COPY . .
+COPY index.html /usr/share/nginx/html/index.html
 EXPOSE 3000
-CMD ['entrypoint']
+CMD ["index.html"]
 
 
