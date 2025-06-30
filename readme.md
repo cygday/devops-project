@@ -30,3 +30,7 @@ webhook setup
   use ngrok http 8080 - it converts the job url into a line - copy it and paste=
   to url on web hook - applicatino/json - just push the event - check it - check github webhook scm on configure job
 -
+
+
+sonarqube token
+squ_b63ed92191e0a51a94492ed952ad649b1f3c7af5
