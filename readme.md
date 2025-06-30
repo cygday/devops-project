@@ -17,4 +17,16 @@ login using ssh
 - change your remote url to use ssh
     git remote -v
     git remote set-url origin git@github.com:cygday/devops-project.git
+
+
+webhook setup
+- create a job with pipeline - syntax pipeline - checkout from version control
+- place github url and do authenticate - add jenkins --username with password
+- generate password from github token - github settings- developer settings 
+- PAT - generate new token classic - check all the boxes -generate token -copy
+  token and paste token as password for authentication - specify branch main -
+  generate pipeline script - copy script and paste it in stage - run pipeline -
+  configure now webhook -goto github -goto settings - add webhook - for url -
+  use ngrok http 8080 - it converts the job url into a line - copy it and paste=
+  to url on web hook - applicatino/json - just push the event - check it - check github webhook scm on configure job
 -
