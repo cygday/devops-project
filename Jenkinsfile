@@ -25,7 +25,8 @@ pipeline {
             steps {
                 sh "docker -t web-app:latest cygday/web-app:latest"
                 sh "docker push cygday/web-app:latest"
-        }
+            }
+	}
         stage("deploy") {
             steps {
                 sh "./deploy.sh"
