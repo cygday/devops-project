@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("checkout") {
             steps {
-                git url:"https://github.com/cygday/devops-project.git", branch: "main"
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token-devops-project', url: 'https://github.com/cygday/devops-project.git']])
             }
 
         }
