@@ -28,7 +28,7 @@ pipeline {
         }
         stage("deploy") {
             steps {
-                sh "docker run -d --name webapp -p 8090:80 web-app:latest"
+                sh "./deploy.sh"
             }
         }
     }
