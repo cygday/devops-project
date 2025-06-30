@@ -9,7 +9,7 @@ pipeline {
         }
         stage("code quality - sonarqube") {
                 steps {
-                    withSonarQubeEnv("SonarQube"){
+                    withSonarQubeEnv("MySonarQube"){
                     sh "SonarScanner"
                 }
             }
