@@ -28,5 +28,5 @@ webhook setup
   generate pipeline script - copy script and paste it in stage - run pipeline -
   configure now webhook -goto github -goto settings - add webhook - for url -
   use ngrok http 8080 - it converts the job url into a line - copy it and paste=
-  to url on web hook - applicatino/json - just push the event - check it - check github webhook scm on configure job     
+  to url on web hook - applicatino/json - just push the event - check it - check github webhook scm on configure job
 -
