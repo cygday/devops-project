@@ -34,3 +34,9 @@ webhook setup
 
 sonarqube token
 squ_b63ed92191e0a51a94492ed952ad649b1f3c7af5
+
+
+sonarqube scan is not possible, check it out
+https://www.youtube.com/watch?v=sk36v_gEjxM
+
+
