@@ -39,4 +39,38 @@ squ_b63ed92191e0a51a94492ed952ad649b1f3c7af5
 sonarqube scan is not possible, check it out
 https://www.youtube.com/watch?v=sk36v_gEjxM
 
+set up project on sonarqube 
+
+create a project
+name
+branch
+baseline for new code for this project
+use the global setting
+then create project-> locally
+provide a token and generate
+
+save this token to jenkinns credentials
+add credentials->secret text
+name
+create
+
+manage jenkins 
+system -> sonarqube servers -> url -> token->save
+
+download plugins
+sonarqube scanner for jenkins
+
+create a pipline
+freestyle project
+
+soruce code management
+git -> url -> branch 
+
+build env
+prepare sonarquebe env
+server auth token -> token 
+
+build steps 
+execute sonarqube scanner
+under analysis properties
 
