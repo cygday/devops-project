@@ -73,4 +73,6 @@ server auth token -> token
 build steps 
 execute sonarqube scanner
 under analysis properties
+copy sonar.project-properties to it and paste
 
+and press build
